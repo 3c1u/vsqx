@@ -1,0 +1,2266 @@
+{
+    "version": {
+        "major": 5,
+        "minor": 0,
+        "revision": 0
+    },
+    "vender": "Yamaha Corporation",
+    "title": "input",
+    "masterTrack": {
+        "samplingRate": 44100,
+        "loop": {
+            "isEnabled": false,
+            "begin": 0,
+            "end": 7680
+        },
+        "tempo": {
+            "isFolded": false,
+            "height": 0,
+            "global": {
+                "isEnabled": false,
+                "value": 12000
+            },
+            "events": [
+                {
+                    "pos": 0,
+                    "value": 9000
+                }
+            ]
+        },
+        "timeSig": {
+            "isFolded": false,
+            "events": [
+                {
+                    "bar": 0,
+                    "numer": 4,
+                    "denom": 4
+                }
+            ]
+        },
+        "volume": {
+            "isFolded": false,
+            "height": 0,
+            "events": [
+                {
+                    "pos": 0,
+                    "value": 0
+                }
+            ]
+        }
+    },
+    "voices": [
+        {
+            "compID": "BKTWCLF7L33RZKC8",
+            "name": "Chris"
+        }
+    ],
+    "tracks": [
+        {
+            "type": 0,
+            "name": "1 VOCALOID",
+            "color": 0,
+            "busNo": 0,
+            "isFolded": false,
+            "height": 0,
+            "volume": {
+                "isFolded": true,
+                "height": 40,
+                "events": [
+                    {
+                        "pos": 0,
+                        "value": 0
+                    }
+                ]
+            },
+            "panpot": {
+                "isFolded": true,
+                "height": 40,
+                "events": [
+                    {
+                        "pos": 0,
+                        "value": 0
+                    }
+                ]
+            },
+            "isMuted": false,
+            "isSoloMode": false
+        },
+        {
+            "type": 0,
+            "name": "Voice",
+            "color": 0,
+            "busNo": 0,
+            "isFolded": false,
+            "height": 0,
+            "volume": {
+                "isFolded": true,
+                "height": 0,
+                "events": [
+                    {
+                        "pos": 0,
+                        "value": 0
+                    }
+                ]
+            },
+            "panpot": {
+                "isFolded": true,
+                "height": 0,
+                "events": [
+                    {
+                        "pos": 0,
+                        "value": 0
+                    }
+                ]
+            },
+            "isMuted": false,
+            "isSoloMode": false,
+            "parts": [
+                {
+                    "name": "Voice",
+                    "pos": 0,
+                    "duration": 55680,
+                    "styleName": "No Effect",
+                    "voice": {
+                        "compID": "BKTWCLF7L33RZKC8",
+                        "langID": 1
+                    },
+                    "midiEffects": [
+                        {
+                            "id": "SingingSkill",
+                            "isBypassed": false,
+                            "isFolded": false,
+                            "parameters": [
+                                {
+                                    "name": "Amount",
+                                    "value": 3
+                                },
+                                {
+                                    "name": "Name",
+                                    "value": "CF1A23FC-F73D-4c92-B5F8-AF062297732C"
+                                },
+                                {
+                                    "name": "Skill",
+                                    "value": 3
+                                }
+                            ]
+                        },
+                        {
+                            "id": "VoiceColor",
+                            "isBypassed": true,
+                            "isFolded": false,
+                            "parameters": [
+                                {
+                                    "name": "Air",
+                                    "value": 0
+                                },
+                                {
+                                    "name": "Breathiness",
+                                    "value": 0
+                                },
+                                {
+                                    "name": "Character",
+                                    "value": 0
+                                },
+                                {
+                                    "name": "Exciter",
+                                    "value": 0
+                                },
+                                {
+                                    "name": "Growl",
+                                    "value": 0
+                                },
+                                {
+                                    "name": "Mouth",
+                                    "value": 0
+                                }
+                            ]
+                        },
+                        {
+                            "id": "RobotVoice",
+                            "isBypassed": true,
+                            "isFolded": false,
+                            "parameters": [
+                                {
+                                    "name": "Mode",
+                                    "value": 2
+                                }
+                            ]
+                        },
+                        {
+                            "id": "DefaultLyric",
+                            "isBypassed": true,
+                            "isFolded": false,
+                            "parameters": [
+                                {
+                                    "name": "CHS",
+                                    "value": "a"
+                                },
+                                {
+                                    "name": "ENG",
+                                    "value": "Ooh"
+                                },
+                                {
+                                    "name": "ESP",
+                                    "value": "a"
+                                },
+                                {
+                                    "name": "JPN",
+                                    "value": "あ"
+                                },
+                                {
+                                    "name": "KOR",
+                                    "value": "아"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Breath",
+                            "isBypassed": false,
+                            "isFolded": false,
+                            "parameters": [
+                                {
+                                    "name": "Exhalation",
+                                    "value": 5
+                                },
+                                {
+                                    "name": "Mode",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "Type",
+                                    "value": 1
+                                }
+                            ]
+                        }
+                    ],
+                    "notes": [
+                        {
+                            "lyric": "oh!",
+                            "phoneme": "@U h",
+                            "isProtected": false,
+                            "pos": 1920,
+                            "duration": 960,
+                            "number": 55,
+                            "velocity": 64,
+                            "exp": {
+                                "opening": 127
+                            },
+                            "singingSkill": {
+                                "duration": 316,
+                                "weight": {
+                                    "pre": 64,
+                                    "post": 64
+                                }
+                            },
+                            "vibrato": {
+                                "type": 0,
+                                "duration": 0
+                            }
+                        },
+                        {
+                            "lyric": "ca-",
+                            "phoneme": "kh {",
+                            "isProtected": false,
+                            "pos": 2880,
+                            "duration": 720,
+                            "number": 58,
+                            "velocity": 64,
+                            "exp": {
+                                "opening": 127
+                            },
+                            "singingSkill": {
+                                "duration": 237,
+                                "weight": {
+                                    "pre": 64,
+                                    "post": 64
+                                }
+                            },
+                            "vibrato": {
+                                "type": 0,
+                                "duration": 0
+                            }
+                        },
+                        {
+                            "lyric": "na-",
+                            "phoneme": "n V",
+                            "isProtected": false,
+                            "pos": 3600,
+                            "duration": 240,
+                            "number": 58,
+                            "velocity": 64,
+                            "exp": {
+                                "opening": 127
+                            },
+                            "singingSkill": {
+                                "duration": 79,
+                                "weight": {
+                                    "pre": 64,
+                                    "post": 64
+                                }
+                            },
+                            "vibrato": {
+                                "type": 0,
+                                "duration": 0
+                            }
+                        },
+                        {
+                            "lyric": "da",
+                            "phoneme": "d V",
+                            "isProtected": false,
+                            "pos": 3840,
+                            "duration": 1440,
+                            "number": 51,
+                            "velocity": 64,
+                            "exp": {
+                                "opening": 127
+                            },
+                            "singingSkill": {
+                                "duration": 475,
+                                "weight": {
+                                    "pre": 64,
+                                    "post": 64
+                                }
+                            },
+                            "vibrato": {
+                                "type": 0,
+                                "duration": 0
+                            }
+                        },
+                        {
+                            "lyric": "o-",
+                            "phoneme": "aU",
+                            "isProtected": false,
+                            "pos": 5280,
+                            "duration": 360,
+                            "number": 53,
+                            "velocity": 64,
+                            "exp": {
+                                "opening": 127
+                            },
+                            "singingSkill": {
+                                "duration": 118,
+                                "weight": {
+                                    "pre": 64,
+                                    "post": 64
+                                }
+                            },
+                            "vibrato": {
+                                "type": 0,
+                                "duration": 0
+                            }
+                        },
+                        {
+                            "lyric": "ur",
+                            "phoneme": "@r",
+                            "isProtected": false,
+                            "pos": 5640,
+                            "duration": 120,
+                            "number": 53,
+                            "velocity": 64,
+                            "exp": {
+                                "opening": 127
+                            },
+                            "singingSkill": {
+                                "duration": 38,
+                                "weight": {
+                                    "pre": 64,
+                                    "post": 64
+                                }
+                            },
+                            "vibrato": {
+                                "type": 0,
+                                "duration": 0
+                            }
+                        },
+                        {
+                            "lyric": "home",
+                            "phoneme": "h @U m",
+                            "isProtected": false,
+                            "pos": 5760,
+                            "duration": 480,
+                            "number": 55,
+                            "velocity": 64,
+                            "exp": {
+                                "opening": 127
+                            },
+                            "singingSkill": {
+                                "duration": 158,
+                                "weight": {
+                                    "pre": 64,
+                                    "post": 64
+                                }
+                            },
+                            "vibrato": {
+                                "type": 0,
+                                "duration": 0
+                            }
+                        },
+                        {
+                            "lyric": "and",
+                            "phoneme": "{ n d",
+                            "isProtected": false,
+                            "pos": 6240,
+                            "duration": 480,
+                            "number": 56,
+                            "velocity": 64,
+                            "exp": {
+                                "opening": 127
+                            },
+                            "singingSkill": {
+                                "duration": 158,
+                                "weight": {
+                                    "pre": 64,
+                                    "post": 64
+                                }
+                            },
+                            "vibrato": {
+                                "type": 0,
+                                "duration": 0
+                            }
+                        },
+                        {
+                            "lyric": "na-",
+                            "phoneme": "n eI",
+                            "isProtected": false,
+                            "pos": 6720,
+                            "duration": 480,
+                            "number": 58,
+                            "velocity": 64,
+                            "exp": {
+                                "opening": 127
+                            },
+                            "singingSkill": {
+                                "duration": 158,
+                                "weight": {
+                                    "pre": 64,
+                                    "post": 64
+                                }
+                            },
+                            "vibrato": {
+                                "type": 0,
+                                "duration": 0
+                            }
+                        },
+                        {
+                            "lyric": "tive",
+                            "phoneme": "t I v",
+                            "isProtected": false,
+                            "pos": 7200,
+                            "duration": 480,
+                            "number": 60,
+                            "velocity": 64,
+                            "exp": {
+                                "opening": 127
+                            },
+                            "singingSkill": {
+                                "duration": 158,
+                                "weight": {
+                                    "pre": 64,
+                                    "post": 64
+                                }
+                            },
+                            "vibrato": {
+                                "type": 0,
+                                "duration": 0
+                            }
+                        },
+                        {
+                            "lyric": "land",
+                            "phoneme": "l0 { n d",
+                            "isProtected": false,
+                            "pos": 7680,
+                            "duration": 1440,
+                            "number": 53,
+                            "velocity": 64,
+                            "exp": {
+                                "opening": 127
+                            },
+                            "singingSkill": {
+                                "duration": 475,
+                                "weight": {
+                                    "pre": 64,
+                                    "post": 64
+                                }
+                            },
+                            "vibrato": {
+                                "type": 0,
+                                "duration": 0
+                            }
+                        },
+                        {
+                            "lyric": "true",
+                            "phoneme": "th r u:",
+                            "isProtected": false,
+                            "pos": 9600,
+                            "duration": 960,
+                            "number": 55,
+                            "velocity": 64,
+                            "exp": {
+                                "opening": 127
+                            },
+                            "singingSkill": {
+                                "duration": 316,
+                                "weight": {
+                                    "pre": 64,
+                                    "post": 64
+                                }
+                            },
+                            "vibrato": {
+                                "type": 0,
+                                "duration": 0
+                            }
+                        },
+                        {
+                            "lyric": "pat-",
+                            "phoneme": "ph eI t",
+                            "isProtected": false,
+                            "pos": 10560,
+                            "duration": 720,
+                            "number": 57,
+                            "velocity": 64,
+                            "exp": {
+                                "opening": 127
+                            },
+                            "singingSkill": {
+                                "duration": 237,
+                                "weight": {
+                                    "pre": 64,
+                                    "post": 64
+                                }
+                            },
+                            "vibrato": {
+                                "type": 0,
+                                "duration": 0
+                            }
+                        },
+                        {
+                            "lyric": "ri-",
+                            "phoneme": "r i:",
+                            "isProtected": false,
+                            "pos": 11280,
+                            "duration": 180,
+                            "number": 57,
+                            "velocity": 64,
+                            "exp": {
+                                "opening": 127
+                            },
+                            "singingSkill": {
+                                "duration": 60,
+                                "weight": {
+                                    "pre": 64,
+                                    "post": 64
+                                }
+                            },
+                            "vibrato": {
+                                "type": 0,
+                                "duration": 0
+                            }
+                        },
+                        {
+                            "lyric": "ot",
+                            "phoneme": "V t",
+                            "isProtected": false,
+                            "pos": 11460,
+                            "duration": 60,
+                            "number": 57,
+                            "velocity": 64,
+                            "exp": {
+                                "opening": 127
+                            },
+                            "singingSkill": {
+                                "duration": 20,
+                                "weight": {
+                                    "pre": 64,
+                                    "post": 64
+                                }
+                            },
+                            "vibrato": {
+                                "type": 0,
+                                "duration": 0
+                            }
+                        },
+                        {
+                            "lyric": "love",
+                            "phoneme": "l0 V v",
+                            "isProtected": false,
+                            "pos": 11520,
+                            "duration": 960,
+                            "number": 58,
+                            "velocity": 64,
+                            "exp": {
+                                "opening": 127
+                            },
+                            "singingSkill": {
+                                "duration": 316,
+                                "weight": {
+                                    "pre": 64,
+                                    "post": 64
+                                }
+                            },
+                            "vibrato": {
+                                "type": 0,
+                                "duration": 0
+                            }
+                        },
+                        {
+                            "lyric": "in",
+                            "phoneme": "I n",
+                            "isProtected": false,
+                            "pos": 12960,
+                            "duration": 480,
+                            "number": 60,
+                            "velocity": 64,
+                            "exp": {
+                                "opening": 127
+                            },
+                            "singingSkill": {
+                                "duration": 158,
+                                "weight": {
+                                    "pre": 64,
+                                    "post": 64
+                                }
+                            },
+                            "vibrato": {
+                                "type": 0,
+                                "duration": 0
+                            }
+                        },
+                        {
+                            "lyric": "all",
+                            "phoneme": "O: l",
+                            "isProtected": false,
+                            "pos": 13440,
+                            "duration": 480,
+                            "number": 62,
+                            "velocity": 64,
+                            "exp": {
+                                "opening": 127
+                            },
+                            "singingSkill": {
+                                "duration": 158,
+                                "weight": {
+                                    "pre": 64,
+                                    "post": 64
+                                }
+                            },
+                            "vibrato": {
+                                "type": 0,
+                                "duration": 0
+                            }
+                        },
+                        {
+                            "lyric": "thy",
+                            "phoneme": "D aI",
+                            "isProtected": false,
+                            "pos": 13920,
+                            "duration": 480,
+                            "number": 62,
+                            "velocity": 64,
+                            "exp": {
+                                "opening": 127
+                            },
+                            "singingSkill": {
+                                "duration": 158,
+                                "weight": {
+                                    "pre": 64,
+                                    "post": 64
+                                }
+                            },
+                            "vibrato": {
+                                "type": 0,
+                                "duration": 0
+                            }
+                        },
+                        {
+                            "lyric": "sons",
+                            "phoneme": "s V n z",
+                            "isProtected": false,
+                            "pos": 14400,
+                            "duration": 480,
+                            "number": 60,
+                            "velocity": 64,
+                            "exp": {
+                                "opening": 127
+                            },
+                            "singingSkill": {
+                                "duration": 158,
+                                "weight": {
+                                    "pre": 64,
+                                    "post": 64
+                                }
+                            },
+                            "vibrato": {
+                                "type": 0,
+                                "duration": 0
+                            }
+                        },
+                        {
+                            "lyric": "com-",
+                            "phoneme": "kh V",
+                            "isProtected": false,
+                            "pos": 14880,
+                            "duration": 480,
+                            "number": 60,
+                            "velocity": 64,
+                            "exp": {
+                                "opening": 127
+                            },
+                            "singingSkill": {
+                                "duration": 158,
+                                "weight": {
+                                    "pre": 64,
+                                    "post": 64
+                                }
+                            },
+                            "vibrato": {
+                                "type": 0,
+                                "duration": 0
+                            }
+                        },
+                        {
+                            "lyric": "mand",
+                            "phoneme": "m { n d",
+                            "isProtected": false,
+                            "pos": 15360,
+                            "duration": 1440,
+                            "number": 58,
+                            "velocity": 64,
+                            "exp": {
+                                "opening": 127
+                            },
+                            "singingSkill": {
+                                "duration": 475,
+                                "weight": {
+                                    "pre": 64,
+                                    "post": 64
+                                }
+                            },
+                            "vibrato": {
+                                "type": 0,
+                                "duration": 0
+                            }
+                        },
+                        {
+                            "lyric": "with",
+                            "phoneme": "w I",
+                            "isProtected": false,
+                            "pos": 16800,
+                            "duration": 360,
+                            "number": 53,
+                            "velocity": 64,
+                            "exp": {
+                                "opening": 127
+                            },
+                            "singingSkill": {
+                                "duration": 118,
+                                "weight": {
+                                    "pre": 64,
+                                    "post": 64
+                                }
+                            },
+                            "vibrato": {
+                                "type": 0,
+                                "duration": 0
+                            }
+                        },
+                        {
+                            "lyric": "-",
+                            "phoneme": "- T",
+                            "isProtected": false,
+                            "pos": 17160,
+                            "duration": 120,
+                            "number": 55,
+                            "velocity": 64,
+                            "exp": {
+                                "opening": 127
+                            },
+                            "singingSkill": {
+                                "duration": 39,
+                                "weight": {
+                                    "pre": 64,
+                                    "post": 64
+                                }
+                            },
+                            "vibrato": {
+                                "type": 0,
+                                "duration": 0
+                            }
+                        },
+                        {
+                            "lyric": "glow-",
+                            "phoneme": "gh l @U",
+                            "isProtected": false,
+                            "pos": 17280,
+                            "duration": 720,
+                            "number": 56,
+                            "velocity": 64,
+                            "exp": {
+                                "opening": 127
+                            },
+                            "singingSkill": {
+                                "duration": 237,
+                                "weight": {
+                                    "pre": 64,
+                                    "post": 64
+                                }
+                            },
+                            "vibrato": {
+                                "type": 0,
+                                "duration": 0
+                            }
+                        },
+                        {
+                            "lyric": "ing",
+                            "phoneme": "I N",
+                            "isProtected": false,
+                            "pos": 18000,
+                            "duration": 240,
+                            "number": 55,
+                            "velocity": 64,
+                            "exp": {
+                                "opening": 127
+                            },
+                            "singingSkill": {
+                                "duration": 79,
+                                "weight": {
+                                    "pre": 64,
+                                    "post": 64
+                                }
+                            },
+                            "vibrato": {
+                                "type": 0,
+                                "duration": 0
+                            }
+                        },
+                        {
+                            "lyric": "hearts",
+                            "phoneme": "h Q@ t s",
+                            "isProtected": false,
+                            "pos": 18240,
+                            "duration": 480,
+                            "number": 53,
+                            "velocity": 64,
+                            "exp": {
+                                "opening": 127
+                            },
+                            "singingSkill": {
+                                "duration": 158,
+                                "weight": {
+                                    "pre": 64,
+                                    "post": 64
+                                }
+                            },
+                            "vibrato": {
+                                "type": 0,
+                                "duration": 0
+                            }
+                        },
+                        {
+                            "lyric": "we",
+                            "phoneme": "w i:",
+                            "isProtected": false,
+                            "pos": 18720,
+                            "duration": 360,
+                            "number": 55,
+                            "velocity": 64,
+                            "exp": {
+                                "opening": 127
+                            },
+                            "singingSkill": {
+                                "duration": 118,
+                                "weight": {
+                                    "pre": 64,
+                                    "post": 64
+                                }
+                            },
+                            "vibrato": {
+                                "type": 0,
+                                "duration": 0
+                            }
+                        },
+                        {
+                            "lyric": "e",
+                            "phoneme": "i:",
+                            "isProtected": false,
+                            "pos": 19080,
+                            "duration": 120,
+                            "number": 56,
+                            "velocity": 64,
+                            "exp": {
+                                "opening": 127
+                            },
+                            "singingSkill": {
+                                "duration": 39,
+                                "weight": {
+                                    "pre": 64,
+                                    "post": 64
+                                }
+                            },
+                            "vibrato": {
+                                "type": 0,
+                                "duration": 0
+                            }
+                        },
+                        {
+                            "lyric": "see",
+                            "phoneme": "s i:",
+                            "isProtected": false,
+                            "pos": 19200,
+                            "duration": 720,
+                            "number": 58,
+                            "velocity": 64,
+                            "exp": {
+                                "opening": 127
+                            },
+                            "singingSkill": {
+                                "duration": 237,
+                                "weight": {
+                                    "pre": 64,
+                                    "post": 64
+                                }
+                            },
+                            "vibrato": {
+                                "type": 0,
+                                "duration": 0
+                            }
+                        },
+                        {
+                            "lyric": "thee",
+                            "phoneme": "D i:",
+                            "isProtected": false,
+                            "pos": 19920,
+                            "duration": 240,
+                            "number": 56,
+                            "velocity": 64,
+                            "exp": {
+                                "opening": 127
+                            },
+                            "singingSkill": {
+                                "duration": 79,
+                                "weight": {
+                                    "pre": 64,
+                                    "post": 64
+                                }
+                            },
+                            "vibrato": {
+                                "type": 0,
+                                "duration": 0
+                            }
+                        },
+                        {
+                            "lyric": "rise",
+                            "phoneme": "r aI z",
+                            "isProtected": false,
+                            "pos": 20160,
+                            "duration": 480,
+                            "number": 55,
+                            "velocity": 64,
+                            "exp": {
+                                "opening": 127
+                            },
+                            "singingSkill": {
+                                "duration": 158,
+                                "weight": {
+                                    "pre": 64,
+                                    "post": 64
+                                }
+                            },
+                            "vibrato": {
+                                "type": 0,
+                                "duration": 0
+                            }
+                        },
+                        {
+                            "lyric": "the",
+                            "phoneme": "D V",
+                            "isProtected": false,
+                            "pos": 20640,
+                            "duration": 360,
+                            "number": 56,
+                            "velocity": 64,
+                            "exp": {
+                                "opening": 127
+                            },
+                            "singingSkill": {
+                                "duration": 118,
+                                "weight": {
+                                    "pre": 64,
+                                    "post": 64
+                                }
+                            },
+                            "vibrato": {
+                                "type": 0,
+                                "duration": 0
+                            }
+                        },
+                        {
+                            "lyric": "-",
+                            "phoneme": "-",
+                            "isProtected": false,
+                            "pos": 21000,
+                            "duration": 120,
+                            "number": 58,
+                            "velocity": 64,
+                            "exp": {
+                                "opening": 127
+                            },
+                            "singingSkill": {
+                                "duration": 39,
+                                "weight": {
+                                    "pre": 64,
+                                    "post": 64
+                                }
+                            },
+                            "vibrato": {
+                                "type": 0,
+                                "duration": 0
+                            }
+                        },
+                        {
+                            "lyric": "true",
+                            "phoneme": "th r u:",
+                            "isProtected": false,
+                            "pos": 21120,
+                            "duration": 480,
+                            "number": 60,
+                            "velocity": 64,
+                            "exp": {
+                                "opening": 127
+                            },
+                            "singingSkill": {
+                                "duration": 158,
+                                "weight": {
+                                    "pre": 64,
+                                    "post": 64
+                                }
+                            },
+                            "vibrato": {
+                                "type": 0,
+                                "duration": 0
+                            }
+                        },
+                        {
+                            "lyric": "north",
+                            "phoneme": "n O@ T",
+                            "isProtected": false,
+                            "pos": 21600,
+                            "duration": 480,
+                            "number": 58,
+                            "velocity": 64,
+                            "exp": {
+                                "opening": 127
+                            },
+                            "singingSkill": {
+                                "duration": 158,
+                                "weight": {
+                                    "pre": 64,
+                                    "post": 64
+                                }
+                            },
+                            "vibrato": {
+                                "type": 0,
+                                "duration": 0
+                            }
+                        },
+                        {
+                            "lyric": "strong",
+                            "phoneme": "s t r O: N",
+                            "isProtected": false,
+                            "pos": 22080,
+                            "duration": 480,
+                            "number": 56,
+                            "velocity": 64,
+                            "exp": {
+                                "opening": 127
+                            },
+                            "singingSkill": {
+                                "duration": 158,
+                                "weight": {
+                                    "pre": 64,
+                                    "post": 64
+                                }
+                            },
+                            "vibrato": {
+                                "type": 0,
+                                "duration": 0
+                            }
+                        },
+                        {
+                            "lyric": "and",
+                            "phoneme": "{ n d",
+                            "isProtected": false,
+                            "pos": 22560,
+                            "duration": 480,
+                            "number": 55,
+                            "velocity": 64,
+                            "exp": {
+                                "opening": 127
+                            },
+                            "singingSkill": {
+                                "duration": 158,
+                                "weight": {
+                                    "pre": 64,
+                                    "post": 64
+                                }
+                            },
+                            "vibrato": {
+                                "type": 0,
+                                "duration": 0
+                            }
+                        },
+                        {
+                            "lyric": "free",
+                            "phoneme": "f r i:",
+                            "isProtected": false,
+                            "pos": 23040,
+                            "duration": 1440,
+                            "number": 53,
+                            "velocity": 64,
+                            "exp": {
+                                "opening": 127
+                            },
+                            "singingSkill": {
+                                "duration": 475,
+                                "weight": {
+                                    "pre": 64,
+                                    "post": 64
+                                }
+                            },
+                            "vibrato": {
+                                "type": 0,
+                                "duration": 0
+                            }
+                        },
+                        {
+                            "lyric": "from",
+                            "phoneme": "f r V",
+                            "isProtected": false,
+                            "pos": 24480,
+                            "duration": 360,
+                            "number": 53,
+                            "velocity": 64,
+                            "exp": {
+                                "opening": 127
+                            },
+                            "singingSkill": {
+                                "duration": 118,
+                                "weight": {
+                                    "pre": 64,
+                                    "post": 64
+                                }
+                            },
+                            "vibrato": {
+                                "type": 0,
+                                "duration": 0
+                            }
+                        },
+                        {
+                            "lyric": "-",
+                            "phoneme": "- m",
+                            "isProtected": false,
+                            "pos": 24840,
+                            "duration": 120,
+                            "number": 55,
+                            "velocity": 64,
+                            "exp": {
+                                "opening": 127
+                            },
+                            "singingSkill": {
+                                "duration": 39,
+                                "weight": {
+                                    "pre": 64,
+                                    "post": 64
+                                }
+                            },
+                            "vibrato": {
+                                "type": 0,
+                                "duration": 0
+                            }
+                        },
+                        {
+                            "lyric": "far",
+                            "phoneme": "f Q@",
+                            "isProtected": false,
+                            "pos": 24960,
+                            "duration": 720,
+                            "number": 56,
+                            "velocity": 64,
+                            "exp": {
+                                "opening": 127
+                            },
+                            "singingSkill": {
+                                "duration": 237,
+                                "weight": {
+                                    "pre": 64,
+                                    "post": 64
+                                }
+                            },
+                            "vibrato": {
+                                "type": 0,
+                                "duration": 0
+                            }
+                        },
+                        {
+                            "lyric": "and",
+                            "phoneme": "{ n d",
+                            "isProtected": false,
+                            "pos": 25680,
+                            "duration": 240,
+                            "number": 55,
+                            "velocity": 64,
+                            "exp": {
+                                "opening": 127
+                            },
+                            "singingSkill": {
+                                "duration": 79,
+                                "weight": {
+                                    "pre": 64,
+                                    "post": 64
+                                }
+                            },
+                            "vibrato": {
+                                "type": 0,
+                                "duration": 0
+                            }
+                        },
+                        {
+                            "lyric": "wide",
+                            "phoneme": "w aI d",
+                            "isProtected": false,
+                            "pos": 25920,
+                            "duration": 480,
+                            "number": 53,
+                            "velocity": 64,
+                            "exp": {
+                                "opening": 127
+                            },
+                            "singingSkill": {
+                                "duration": 158,
+                                "weight": {
+                                    "pre": 64,
+                                    "post": 64
+                                }
+                            },
+                            "vibrato": {
+                                "type": 0,
+                                "duration": 0
+                            }
+                        },
+                        {
+                            "lyric": "o",
+                            "phoneme": "@U",
+                            "isProtected": false,
+                            "pos": 26400,
+                            "duration": 360,
+                            "number": 55,
+                            "velocity": 64,
+                            "exp": {
+                                "opening": 127
+                            },
+                            "singingSkill": {
+                                "duration": 118,
+                                "weight": {
+                                    "pre": 64,
+                                    "post": 64
+                                }
+                            },
+                            "vibrato": {
+                                "type": 0,
+                                "duration": 0
+                            }
+                        },
+                        {
+                            "lyric": "o",
+                            "phoneme": "@U",
+                            "isProtected": false,
+                            "pos": 26760,
+                            "duration": 120,
+                            "number": 56,
+                            "velocity": 64,
+                            "exp": {
+                                "opening": 127
+                            },
+                            "singingSkill": {
+                                "duration": 39,
+                                "weight": {
+                                    "pre": 64,
+                                    "post": 64
+                                }
+                            },
+                            "vibrato": {
+                                "type": 0,
+                                "duration": 0
+                            }
+                        },
+                        {
+                            "lyric": "ca-",
+                            "phoneme": "kh {",
+                            "isProtected": false,
+                            "pos": 26880,
+                            "duration": 720,
+                            "number": 58,
+                            "velocity": 64,
+                            "exp": {
+                                "opening": 127
+                            },
+                            "singingSkill": {
+                                "duration": 237,
+                                "weight": {
+                                    "pre": 64,
+                                    "post": 64
+                                }
+                            },
+                            "vibrato": {
+                                "type": 0,
+                                "duration": 0
+                            }
+                        },
+                        {
+                            "lyric": "na-",
+                            "phoneme": "n V",
+                            "isProtected": false,
+                            "pos": 27600,
+                            "duration": 240,
+                            "number": 56,
+                            "velocity": 64,
+                            "exp": {
+                                "opening": 127
+                            },
+                            "singingSkill": {
+                                "duration": 79,
+                                "weight": {
+                                    "pre": 64,
+                                    "post": 64
+                                }
+                            },
+                            "vibrato": {
+                                "type": 0,
+                                "duration": 0
+                            }
+                        },
+                        {
+                            "lyric": "da",
+                            "phoneme": "d V",
+                            "isProtected": false,
+                            "pos": 27840,
+                            "duration": 480,
+                            "number": 55,
+                            "velocity": 64,
+                            "exp": {
+                                "opening": 127
+                            },
+                            "singingSkill": {
+                                "duration": 158,
+                                "weight": {
+                                    "pre": 64,
+                                    "post": 64
+                                }
+                            },
+                            "vibrato": {
+                                "type": 0,
+                                "duration": 0
+                            }
+                        },
+                        {
+                            "lyric": "we",
+                            "phoneme": "w i:",
+                            "isProtected": false,
+                            "pos": 28320,
+                            "duration": 480,
+                            "number": 55,
+                            "velocity": 64,
+                            "exp": {
+                                "opening": 127
+                            },
+                            "singingSkill": {
+                                "duration": 158,
+                                "weight": {
+                                    "pre": 64,
+                                    "post": 64
+                                }
+                            },
+                            "vibrato": {
+                                "type": 0,
+                                "duration": 0
+                            }
+                        },
+                        {
+                            "lyric": "stand",
+                            "phoneme": "s t { n d",
+                            "isProtected": false,
+                            "pos": 28800,
+                            "duration": 480,
+                            "number": 53,
+                            "velocity": 64,
+                            "exp": {
+                                "opening": 127
+                            },
+                            "singingSkill": {
+                                "duration": 158,
+                                "weight": {
+                                    "pre": 64,
+                                    "post": 64
+                                }
+                            },
+                            "vibrato": {
+                                "type": 0,
+                                "duration": 0
+                            }
+                        },
+                        {
+                            "lyric": "on",
+                            "phoneme": "Q n",
+                            "isProtected": false,
+                            "pos": 29280,
+                            "duration": 480,
+                            "number": 58,
+                            "velocity": 64,
+                            "exp": {
+                                "opening": 127
+                            },
+                            "singingSkill": {
+                                "duration": 158,
+                                "weight": {
+                                    "pre": 64,
+                                    "post": 64
+                                }
+                            },
+                            "vibrato": {
+                                "type": 0,
+                                "duration": 0
+                            }
+                        },
+                        {
+                            "lyric": "guard",
+                            "phoneme": "gh Q@",
+                            "isProtected": false,
+                            "pos": 29760,
+                            "duration": 240,
+                            "number": 58,
+                            "velocity": 64,
+                            "exp": {
+                                "opening": 127
+                            },
+                            "singingSkill": {
+                                "duration": 79,
+                                "weight": {
+                                    "pre": 64,
+                                    "post": 64
+                                }
+                            },
+                            "vibrato": {
+                                "type": 0,
+                                "duration": 0
+                            }
+                        },
+                        {
+                            "lyric": "-",
+                            "phoneme": "- d",
+                            "isProtected": false,
+                            "pos": 30000,
+                            "duration": 240,
+                            "number": 57,
+                            "velocity": 64,
+                            "exp": {
+                                "opening": 127
+                            },
+                            "singingSkill": {
+                                "duration": 79,
+                                "weight": {
+                                    "pre": 64,
+                                    "post": 64
+                                }
+                            },
+                            "vibrato": {
+                                "type": 0,
+                                "duration": 0
+                            }
+                        },
+                        {
+                            "lyric": "for",
+                            "phoneme": "f O@",
+                            "isProtected": false,
+                            "pos": 30240,
+                            "duration": 240,
+                            "number": 55,
+                            "velocity": 64,
+                            "exp": {
+                                "opening": 127
+                            },
+                            "singingSkill": {
+                                "duration": 79,
+                                "weight": {
+                                    "pre": 64,
+                                    "post": 64
+                                }
+                            },
+                            "vibrato": {
+                                "type": 0,
+                                "duration": 0
+                            }
+                        },
+                        {
+                            "lyric": "-",
+                            "phoneme": "-",
+                            "isProtected": false,
+                            "pos": 30480,
+                            "duration": 240,
+                            "number": 57,
+                            "velocity": 64,
+                            "exp": {
+                                "opening": 127
+                            },
+                            "singingSkill": {
+                                "duration": 79,
+                                "weight": {
+                                    "pre": 64,
+                                    "post": 64
+                                }
+                            },
+                            "vibrato": {
+                                "type": 0,
+                                "duration": 0
+                            }
+                        },
+                        {
+                            "lyric": "thee",
+                            "phoneme": "D i:",
+                            "isProtected": false,
+                            "pos": 30720,
+                            "duration": 1920,
+                            "number": 58,
+                            "velocity": 64,
+                            "exp": {
+                                "opening": 127
+                            },
+                            "singingSkill": {
+                                "duration": 633,
+                                "weight": {
+                                    "pre": 64,
+                                    "post": 64
+                                }
+                            },
+                            "vibrato": {
+                                "type": 0,
+                                "duration": 0
+                            }
+                        },
+                        {
+                            "lyric": "god",
+                            "phoneme": "gh Q d",
+                            "isProtected": false,
+                            "pos": 32640,
+                            "duration": 960,
+                            "number": 55,
+                            "velocity": 64,
+                            "exp": {
+                                "opening": 127
+                            },
+                            "singingSkill": {
+                                "duration": 316,
+                                "weight": {
+                                    "pre": 64,
+                                    "post": 64
+                                }
+                            },
+                            "vibrato": {
+                                "type": 0,
+                                "duration": 0
+                            }
+                        },
+                        {
+                            "lyric": "keep",
+                            "phoneme": "kh i: p",
+                            "isProtected": false,
+                            "pos": 33600,
+                            "duration": 720,
+                            "number": 58,
+                            "velocity": 64,
+                            "exp": {
+                                "opening": 127
+                            },
+                            "singingSkill": {
+                                "duration": 237,
+                                "weight": {
+                                    "pre": 64,
+                                    "post": 64
+                                }
+                            },
+                            "vibrato": {
+                                "type": 0,
+                                "duration": 0
+                            }
+                        },
+                        {
+                            "lyric": "o-",
+                            "phoneme": "aU",
+                            "isProtected": false,
+                            "pos": 34320,
+                            "duration": 180,
+                            "number": 58,
+                            "velocity": 64,
+                            "exp": {
+                                "opening": 127
+                            },
+                            "singingSkill": {
+                                "duration": 59,
+                                "weight": {
+                                    "pre": 64,
+                                    "post": 64
+                                }
+                            },
+                            "vibrato": {
+                                "type": 0,
+                                "duration": 0
+                            }
+                        },
+                        {
+                            "lyric": "ur",
+                            "phoneme": "@r",
+                            "isProtected": false,
+                            "pos": 34500,
+                            "duration": 60,
+                            "number": 58,
+                            "velocity": 64,
+                            "exp": {
+                                "opening": 127
+                            },
+                            "singingSkill": {
+                                "duration": 19,
+                                "weight": {
+                                    "pre": 64,
+                                    "post": 64
+                                }
+                            },
+                            "vibrato": {
+                                "type": 0,
+                                "duration": 0
+                            }
+                        },
+                        {
+                            "lyric": "land",
+                            "phoneme": "l0 { n d",
+                            "isProtected": false,
+                            "pos": 34560,
+                            "duration": 960,
+                            "number": 51,
+                            "velocity": 64,
+                            "exp": {
+                                "opening": 127
+                            },
+                            "singingSkill": {
+                                "duration": 316,
+                                "weight": {
+                                    "pre": 64,
+                                    "post": 64
+                                }
+                            },
+                            "vibrato": {
+                                "type": 0,
+                                "duration": 0
+                            }
+                        },
+                        {
+                            "lyric": "glo-",
+                            "phoneme": "gh l O@",
+                            "isProtected": false,
+                            "pos": 36480,
+                            "duration": 960,
+                            "number": 56,
+                            "velocity": 64,
+                            "exp": {
+                                "opening": 127
+                            },
+                            "singingSkill": {
+                                "duration": 316,
+                                "weight": {
+                                    "pre": 64,
+                                    "post": 64
+                                }
+                            },
+                            "vibrato": {
+                                "type": 0,
+                                "duration": 0
+                            }
+                        },
+                        {
+                            "lyric": "ri-",
+                            "phoneme": "r i:",
+                            "isProtected": false,
+                            "pos": 37440,
+                            "duration": 480,
+                            "number": 60,
+                            "velocity": 64,
+                            "exp": {
+                                "opening": 127
+                            },
+                            "singingSkill": {
+                                "duration": 160,
+                                "weight": {
+                                    "pre": 64,
+                                    "post": 64
+                                }
+                            },
+                            "vibrato": {
+                                "type": 0,
+                                "duration": 0
+                            }
+                        },
+                        {
+                            "lyric": "ous",
+                            "phoneme": "V s",
+                            "isProtected": false,
+                            "pos": 37920,
+                            "duration": 240,
+                            "number": 60,
+                            "velocity": 64,
+                            "exp": {
+                                "opening": 127
+                            },
+                            "singingSkill": {
+                                "duration": 79,
+                                "weight": {
+                                    "pre": 64,
+                                    "post": 64
+                                }
+                            },
+                            "vibrato": {
+                                "type": 0,
+                                "duration": 0
+                            }
+                        },
+                        {
+                            "lyric": "and",
+                            "phoneme": "{ n d",
+                            "isProtected": false,
+                            "pos": 38160,
+                            "duration": 240,
+                            "number": 60,
+                            "velocity": 64,
+                            "exp": {
+                                "opening": 127
+                            },
+                            "singingSkill": {
+                                "duration": 79,
+                                "weight": {
+                                    "pre": 64,
+                                    "post": 64
+                                }
+                            },
+                            "vibrato": {
+                                "type": 0,
+                                "duration": 0
+                            }
+                        },
+                        {
+                            "lyric": "free",
+                            "phoneme": "f r i:",
+                            "isProtected": false,
+                            "pos": 38400,
+                            "duration": 960,
+                            "number": 53,
+                            "velocity": 64,
+                            "exp": {
+                                "opening": 127
+                            },
+                            "singingSkill": {
+                                "duration": 316,
+                                "weight": {
+                                    "pre": 64,
+                                    "post": 64
+                                }
+                            },
+                            "vibrato": {
+                                "type": 0,
+                                "duration": 0
+                            }
+                        },
+                        {
+                            "lyric": "-",
+                            "phoneme": "-",
+                            "isProtected": false,
+                            "pos": 39360,
+                            "duration": 480,
+                            "number": 53,
+                            "velocity": 64,
+                            "exp": {
+                                "opening": 127
+                            },
+                            "singingSkill": {
+                                "duration": 158,
+                                "weight": {
+                                    "pre": 64,
+                                    "post": 64
+                                }
+                            },
+                            "vibrato": {
+                                "type": 0,
+                                "duration": 0
+                            }
+                        },
+                        {
+                            "lyric": "oh",
+                            "phoneme": "@U",
+                            "isProtected": false,
+                            "pos": 40320,
+                            "duration": 960,
+                            "number": 58,
+                            "velocity": 64,
+                            "exp": {
+                                "opening": 127
+                            },
+                            "singingSkill": {
+                                "duration": 316,
+                                "weight": {
+                                    "pre": 64,
+                                    "post": 64
+                                }
+                            },
+                            "vibrato": {
+                                "type": 0,
+                                "duration": 0
+                            }
+                        },
+                        {
+                            "lyric": "ca-",
+                            "phoneme": "kh {",
+                            "isProtected": false,
+                            "pos": 41280,
+                            "duration": 720,
+                            "number": 59,
+                            "velocity": 64,
+                            "exp": {
+                                "opening": 127
+                            },
+                            "singingSkill": {
+                                "duration": 237,
+                                "weight": {
+                                    "pre": 64,
+                                    "post": 64
+                                }
+                            },
+                            "vibrato": {
+                                "type": 0,
+                                "duration": 0
+                            }
+                        },
+                        {
+                            "lyric": "na-",
+                            "phoneme": "n V",
+                            "isProtected": false,
+                            "pos": 42000,
+                            "duration": 240,
+                            "number": 59,
+                            "velocity": 64,
+                            "exp": {
+                                "opening": 127
+                            },
+                            "singingSkill": {
+                                "duration": 79,
+                                "weight": {
+                                    "pre": 64,
+                                    "post": 64
+                                }
+                            },
+                            "vibrato": {
+                                "type": 0,
+                                "duration": 0
+                            }
+                        },
+                        {
+                            "lyric": "da",
+                            "phoneme": "d V",
+                            "isProtected": false,
+                            "pos": 42240,
+                            "duration": 480,
+                            "number": 60,
+                            "velocity": 64,
+                            "exp": {
+                                "opening": 127
+                            },
+                            "singingSkill": {
+                                "duration": 158,
+                                "weight": {
+                                    "pre": 64,
+                                    "post": 64
+                                }
+                            },
+                            "vibrato": {
+                                "type": 0,
+                                "duration": 0
+                            }
+                        },
+                        {
+                            "lyric": "we",
+                            "phoneme": "w i:",
+                            "isProtected": false,
+                            "pos": 42720,
+                            "duration": 480,
+                            "number": 56,
+                            "velocity": 64,
+                            "exp": {
+                                "opening": 127
+                            },
+                            "singingSkill": {
+                                "duration": 158,
+                                "weight": {
+                                    "pre": 64,
+                                    "post": 64
+                                }
+                            },
+                            "vibrato": {
+                                "type": 0,
+                                "duration": 0
+                            }
+                        },
+                        {
+                            "lyric": "stand",
+                            "phoneme": "s t { n d",
+                            "isProtected": false,
+                            "pos": 43200,
+                            "duration": 480,
+                            "number": 55,
+                            "velocity": 64,
+                            "exp": {
+                                "opening": 127
+                            },
+                            "singingSkill": {
+                                "duration": 158,
+                                "weight": {
+                                    "pre": 64,
+                                    "post": 64
+                                }
+                            },
+                            "vibrato": {
+                                "type": 0,
+                                "duration": 0
+                            }
+                        },
+                        {
+                            "lyric": "on",
+                            "phoneme": "Q n",
+                            "isProtected": false,
+                            "pos": 43680,
+                            "duration": 480,
+                            "number": 53,
+                            "velocity": 64,
+                            "exp": {
+                                "opening": 127
+                            },
+                            "singingSkill": {
+                                "duration": 158,
+                                "weight": {
+                                    "pre": 64,
+                                    "post": 64
+                                }
+                            },
+                            "vibrato": {
+                                "type": 0,
+                                "duration": 0
+                            }
+                        },
+                        {
+                            "lyric": "guard",
+                            "phoneme": "gh Q@ d",
+                            "isProtected": false,
+                            "pos": 44160,
+                            "duration": 960,
+                            "number": 51,
+                            "velocity": 64,
+                            "exp": {
+                                "opening": 127
+                            },
+                            "singingSkill": {
+                                "duration": 316,
+                                "weight": {
+                                    "pre": 64,
+                                    "post": 64
+                                }
+                            },
+                            "vibrato": {
+                                "type": 0,
+                                "duration": 0
+                            }
+                        },
+                        {
+                            "lyric": "for",
+                            "phoneme": "f O@",
+                            "isProtected": false,
+                            "pos": 45120,
+                            "duration": 960,
+                            "number": 53,
+                            "velocity": 64,
+                            "exp": {
+                                "opening": 127
+                            },
+                            "singingSkill": {
+                                "duration": 316,
+                                "weight": {
+                                    "pre": 64,
+                                    "post": 64
+                                }
+                            },
+                            "vibrato": {
+                                "type": 0,
+                                "duration": 0
+                            }
+                        },
+                        {
+                            "lyric": "thee",
+                            "phoneme": "D i:",
+                            "isProtected": false,
+                            "pos": 46080,
+                            "duration": 960,
+                            "number": 55,
+                            "velocity": 64,
+                            "exp": {
+                                "opening": 127
+                            },
+                            "singingSkill": {
+                                "duration": 316,
+                                "weight": {
+                                    "pre": 64,
+                                    "post": 64
+                                }
+                            },
+                            "vibrato": {
+                                "type": 0,
+                                "duration": 0
+                            }
+                        },
+                        {
+                            "lyric": "oh",
+                            "phoneme": "@U",
+                            "isProtected": false,
+                            "pos": 48000,
+                            "duration": 960,
+                            "number": 58,
+                            "velocity": 64,
+                            "exp": {
+                                "opening": 127
+                            },
+                            "singingSkill": {
+                                "duration": 316,
+                                "weight": {
+                                    "pre": 64,
+                                    "post": 64
+                                }
+                            },
+                            "vibrato": {
+                                "type": 0,
+                                "duration": 0
+                            }
+                        },
+                        {
+                            "lyric": "ca-",
+                            "phoneme": "kh {",
+                            "isProtected": false,
+                            "pos": 48960,
+                            "duration": 720,
+                            "number": 63,
+                            "velocity": 64,
+                            "exp": {
+                                "opening": 127
+                            },
+                            "singingSkill": {
+                                "duration": 237,
+                                "weight": {
+                                    "pre": 64,
+                                    "post": 64
+                                }
+                            },
+                            "vibrato": {
+                                "type": 0,
+                                "duration": 0
+                            }
+                        },
+                        {
+                            "lyric": "na-",
+                            "phoneme": "n V",
+                            "isProtected": false,
+                            "pos": 49680,
+                            "duration": 240,
+                            "number": 63,
+                            "velocity": 64,
+                            "exp": {
+                                "opening": 127
+                            },
+                            "singingSkill": {
+                                "duration": 79,
+                                "weight": {
+                                    "pre": 64,
+                                    "post": 64
+                                }
+                            },
+                            "vibrato": {
+                                "type": 0,
+                                "duration": 0
+                            }
+                        },
+                        {
+                            "lyric": "da",
+                            "phoneme": "d V",
+                            "isProtected": false,
+                            "pos": 49920,
+                            "duration": 480,
+                            "number": 60,
+                            "velocity": 64,
+                            "exp": {
+                                "opening": 127
+                            },
+                            "singingSkill": {
+                                "duration": 158,
+                                "weight": {
+                                    "pre": 64,
+                                    "post": 64
+                                }
+                            },
+                            "vibrato": {
+                                "type": 0,
+                                "duration": 0
+                            }
+                        },
+                        {
+                            "lyric": "we",
+                            "phoneme": "w i:",
+                            "isProtected": false,
+                            "pos": 50400,
+                            "duration": 480,
+                            "number": 56,
+                            "velocity": 64,
+                            "exp": {
+                                "opening": 127
+                            },
+                            "singingSkill": {
+                                "duration": 158,
+                                "weight": {
+                                    "pre": 64,
+                                    "post": 64
+                                }
+                            },
+                            "vibrato": {
+                                "type": 0,
+                                "duration": 0
+                            }
+                        },
+                        {
+                            "lyric": "stand",
+                            "phoneme": "s t { n d",
+                            "isProtected": false,
+                            "pos": 50880,
+                            "duration": 480,
+                            "number": 55,
+                            "velocity": 64,
+                            "exp": {
+                                "opening": 127
+                            },
+                            "singingSkill": {
+                                "duration": 158,
+                                "weight": {
+                                    "pre": 64,
+                                    "post": 64
+                                }
+                            },
+                            "vibrato": {
+                                "type": 0,
+                                "duration": 0
+                            }
+                        },
+                        {
+                            "lyric": "on",
+                            "phoneme": "Q n",
+                            "isProtected": false,
+                            "pos": 51360,
+                            "duration": 480,
+                            "number": 53,
+                            "velocity": 64,
+                            "exp": {
+                                "opening": 127
+                            },
+                            "singingSkill": {
+                                "duration": 158,
+                                "weight": {
+                                    "pre": 64,
+                                    "post": 64
+                                }
+                            },
+                            "vibrato": {
+                                "type": 0,
+                                "duration": 0
+                            }
+                        },
+                        {
+                            "lyric": "guard",
+                            "phoneme": "gh Q@ d",
+                            "isProtected": false,
+                            "pos": 51840,
+                            "duration": 960,
+                            "number": 58,
+                            "velocity": 64,
+                            "exp": {
+                                "opening": 127
+                            },
+                            "singingSkill": {
+                                "duration": 316,
+                                "weight": {
+                                    "pre": 64,
+                                    "post": 64
+                                }
+                            },
+                            "vibrato": {
+                                "type": 0,
+                                "duration": 0
+                            }
+                        },
+                        {
+                            "lyric": "for",
+                            "phoneme": "f O@",
+                            "isProtected": false,
+                            "pos": 52800,
+                            "duration": 960,
+                            "number": 50,
+                            "velocity": 64,
+                            "exp": {
+                                "opening": 127
+                            },
+                            "singingSkill": {
+                                "duration": 316,
+                                "weight": {
+                                    "pre": 64,
+                                    "post": 64
+                                }
+                            },
+                            "vibrato": {
+                                "type": 0,
+                                "duration": 0
+                            }
+                        },
+                        {
+                            "lyric": "thee",
+                            "phoneme": "D i:",
+                            "isProtected": false,
+                            "pos": 53760,
+                            "duration": 1920,
+                            "number": 51,
+                            "velocity": 64,
+                            "exp": {
+                                "opening": 127
+                            },
+                            "singingSkill": {
+                                "duration": 633,
+                                "weight": {
+                                    "pre": 64,
+                                    "post": 64
+                                }
+                            },
+                            "vibrato": {
+                                "type": 0,
+                                "duration": 0
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
